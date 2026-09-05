@@ -1,2 +1,12 @@
 
 .zmk/
+
+# ZMK build artifacts
+firmware/
+*.uf2
+firmware.zip
+build/
+.west/
+
+# Local tooling
+.atl/
