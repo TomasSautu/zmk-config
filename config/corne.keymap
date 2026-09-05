@@ -13,6 +13,10 @@
     chain-length = <27>;
 };
 
+&EXT_POWER {
+    control-gpios = <&gpio0 13 GPIO_ACTIVE_HIGH>;
+};
+
 / {
         keymap {
                 compatible = "zmk,keymap";
